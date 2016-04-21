@@ -1,0 +1,215 @@
+
+
+/***************** Home Page ******************/
+
+.home-pic{
+	margin: -50px 0 0; 
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("workstation.jpg");
+	height: 710px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home-page-text{
+	position: absolute;
+    display: inline-block;
+    color: #fff;
+    padding-top: 200px;
+    text-align: center;
+    width: 98%;
+} 
+
+.header{
+	text-align: center;
+}
+
+.section{
+	padding-top: 40px;
+}
+/****************** About Me *******************/
+
+.about-me{
+	height: 610px;
+}
+
+.about-me-text{
+    height: 280px;
+    color: gray;
+    vertical-align: middle; 
+}
+ 
+.about-me-image{
+	text-align: center;
+}
+
+/******************* Skills *********************/
+
+.specialty-1{
+	   background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
+    ),
+    url("workstation.jpg");
+	background-attachment: fixed;
+	height: 610px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;	
+}
+
+.specialty-1 li{
+    font-size: 20px;
+}
+
+.specialty-1 h1{
+    font-size: 40px;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.modal{
+    margin-top: 60px;
+    z-index: 100;
+}
+/******************* Sample Work ********************/
+
+ul{
+	list-style: none;
+}
+
+.sample-header{
+	margin-bottom: 50px;
+    text-align: center;
+}
+
+.sample-work{
+	height: 610px;
+}
+
+.flip-pic {
+    position:relative;    
+}
+
+.flip-pic figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px;
+    width: 706px;
+}
+.flip-pic figure .sample-1 {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0;
+    border: solid;
+    border-color: #c0c0c0;
+}
+.flip-pic figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border: solid;
+    border-color: #c0c0c0;
+}
+.flip-pic figure h2 {
+    font-family:'Lato';
+    color:#fff;
+    font-size:20px;
+    text-align:left
+}
+.flip-pic figure p {
+    display:block;
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0;
+    color:#fff;
+    text-align:left
+}
+.flip-pic figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    background-color:rgba(26,76,110,0.5);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.flip-pic figure .sample-1 {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.flip-pic figure:hover .sample-1,figure.hover .sample-1 {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.flip-pic figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+/****************** Contact Us ************************/
+.contact-us{
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("toronto-edited.jpeg");
+    height: 605px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white; 
+}
+
+.reach-me label{
+    width: 80px;
+    text-align: right;
+}
+
+.reach-me input, .reach-me textarea{
+    border-radius: 5px;
+    width: 365px;
+}
+
+.reach-me textarea{
+    width: 364px;
+    height: 120px;
+}
+
+.contact-message{
+    vertical-align: top;
+}
+
+.contact-us h1{
+    margin-bottom: 40px;
+}
+
+.contact-button{
+    margin-left: 87px;
+}

@@ -1,0 +1,18 @@
+
+<%= form_for(@contact) do |f| %>
+	
+	<%= f.label :name, "Name:", class: 'req' %>&nbsp;
+	<%= f.text_field :name, required: true %><br /><br />
+
+	<%= f.label :email, "Email:", class: 'req' %>&nbsp;
+	<%= f.email_field :email, required: true %><br /><br />
+
+	<%= f.label :phone, "Phone:" %>&nbsp;
+	<%= f.telephone_field :phone %><br /><br />
+
+	<%= f.label :message, "Message:", class: 'req contact-message' %>&nbsp;
+	<%= f.text_area :message, required: true %><br /><br />
+
+	<%= f.submit "Send", class: "btn btn-success contact-button" %>
+
+<% end %>
