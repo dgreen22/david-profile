@@ -113,7 +113,7 @@ ul{
     z-index:10;
     margin:-15px 0;
     border: solid;
-    border-color: #c0c0c0;
+    border-color: #F0F0F0;
 }
 .flip-pic figure figcaption {
     display:block;
@@ -123,7 +123,7 @@ ul{
     -moz-box-sizing:border-box;
     box-sizing:border-box;
     border: solid;
-    border-color: #c0c0c0;
+    border-color: #F0F0F0;
 }
 .flip-pic figure h2 {
     font-family:'Lato';
@@ -131,6 +131,11 @@ ul{
     font-size:20px;
     text-align:left
 }
+
+.flip-pic h1{
+    color: #fff;
+}
+
 .flip-pic figure p {
     display:block;
     font-family:'Lato';
@@ -156,17 +161,20 @@ ul{
     -moz-transition:all .5s;
     transition:all .5s
 }
+
 .flip-pic figure .sample-1 {
     backface-visibility:hidden;
     -webkit-transition:all .5s;
     -moz-transition:all .5s;
     transition:all .5s
 }
+
 .flip-pic figure:hover .sample-1,figure.hover .sample-1 {
     -webkit-transform:rotateY(180deg);
     -moz-transform:rotateY(180deg);
     transform:rotateY(180deg)
 }
+
 .flip-pic figure:hover figcaption,figure.hover figcaption {
     -webkit-transform:rotateY(0);
     -moz-transform:rotateY(0);
