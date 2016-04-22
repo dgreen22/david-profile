@@ -1,0 +1,312 @@
+/***************** Home Page ******************/
+/* line 6, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.home-pic {
+  margin: -50px 0 0;
+  background: linear-gradient(transparent, transparent), url("workstation.jpg");
+  height: 710px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 20, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.home-page-text {
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  padding-top: 200px;
+  text-align: center;
+  width: 98%;
+}
+
+/* line 29, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.header {
+  text-align: center;
+}
+
+/* line 33, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.section {
+  padding-top: 40px;
+}
+
+/****************** About Me *******************/
+/* line 38, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.about-me {
+  height: 610px;
+}
+
+/* line 42, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.about-me-text {
+  height: 280px;
+  color: gray;
+  vertical-align: middle;
+}
+
+/* line 48, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.about-me-image {
+  text-align: center;
+}
+
+/******************* Skills *********************/
+/* line 54, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.specialty-1 {
+  background: linear-gradient(transparent, transparent), url("workstation.jpg");
+  background-attachment: fixed;
+  height: 610px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* line 68, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.specialty-1 li {
+  font-size: 20px;
+}
+
+/* line 72, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.specialty-1 h1 {
+  font-size: 40px;
+}
+
+/* line 76, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.modal-backdrop {
+  z-index: -1;
+}
+
+/* line 80, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.modal {
+  margin-top: 60px;
+  z-index: 100;
+}
+
+/******************* Sample Work ********************/
+/* line 86, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+ul {
+  list-style: none;
+}
+
+/* line 90, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.sample-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* line 95, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.sample-work {
+  height: 610px;
+}
+
+/* line 99, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic {
+  position: relative;
+}
+
+/* line 103, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  margin-left: -50px;
+  max-width: 706px;
+}
+
+/* line 111, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure .sample-1 {
+  display: block;
+  position: relative;
+  z-index: 10;
+  margin: -15px 0;
+  border: solid;
+  border-color: #F0F0F0;
+}
+
+/* line 119, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure figcaption {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #F0F0F0;
+}
+
+/* line 129, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure h2 {
+  font-family: 'Lato';
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* line 136, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic h1 {
+  color: #fff;
+}
+
+/* line 140, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure p {
+  display: block;
+  font-family: 'Lato';
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  color: #fff;
+  text-align: left;
+}
+
+/* line 149, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure figcaption {
+  top: 0;
+  left: 0;
+  max-width: 706px;
+  height: 100%;
+  padding: 29px 44px;
+  background-color: green;
+  text-align: center;
+  backface-visibility: hidden;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all 0.5s;
+}
+
+/* line 166, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure .sample-1 {
+  backface-visibility: hidden;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all 0.5s;
+}
+
+/* line 173, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure:hover .sample-1, figure.hover .sample-1 {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* line 179, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.flip-pic figure:hover figcaption, figure.hover figcaption {
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+/* line 185, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.sample-text {
+  margin-bottom: 20px;
+}
+
+/****************** Contact Us ************************/
+/* line 190, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.contact-us {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("toronto-edited.jpeg");
+  height: 605px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* line 203, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.reach-me label {
+  width: 80px;
+  text-align: right;
+}
+
+/* line 208, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.reach-me input, .reach-me textarea {
+  border-radius: 5px;
+  max-width: 365px;
+}
+
+/* line 213, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.reach-me textarea {
+  max-width: 364px;
+  max-height: 120px;
+}
+
+/* line 218, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.contact-message {
+  vertical-align: top;
+}
+
+/* line 222, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.contact-us h1 {
+  margin-bottom: 40px;
+}
+
+/* line 226, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/main_pages.scss */
+.contact-box {
+  color: black;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+body {
+  position: relative;
+  min-height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 25, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 31, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+* {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+}
+
+/* line 37, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+.my-name-logo {
+  color: white;
+}
+
+/* line 41, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+.navbar {
+  opacity: 0.9;
+}
+
+/*************** footer ******************/
+/* line 46, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+.footer {
+  background: black;
+  opacity: 0.8;
+  height: 50px;
+  color: white;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 0 20px;
+  border-top: solid thin white;
+}
+
+/* line 58, /Users/DEG/Desktop/DGreenSite/app/assets/stylesheets/application.css.scss */
+.req:before {
+  content: "* ";
+  color: red;
+}
