@@ -8,9 +8,8 @@ end
 
 def create
 	@contact = Contact.new(contact_params)
-	@contact.request = request
-    if @contact.deliver
-      flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
+    if @contact.save
+      format.html { redirect_to '/home', notice: "Thank you for the message. I will be in touch soon!"}
     else
       flash.now[:error] = 'Cannot send message.'
       render :new

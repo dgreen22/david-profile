@@ -10,10 +10,10 @@
       rgba(0, 0, 0, 0)
     ),
     url("workstation.jpg");
-	height: 710px;
-	background-repeat: no-repeat;
-	background-size: cover;
+    height: 710px;
+	background-repeat: no-repeat;	
 	background-attachment: fixed;
+    background-size:cover;
 }
 
 .home-page-text{
@@ -105,7 +105,7 @@ ul{
     position:relative;
     cursor:pointer;
     margin-left:-50px;
-    width: 706px;
+    max-width: 706px;
 }
 .flip-pic figure .sample-1 {
     display:block;
@@ -148,7 +148,7 @@ ul{
 .flip-pic figure figcaption {
     top:0;
     left:0;
-    width:100%;
+    max-width: 706px;
     height:100%;
     padding:29px 44px;
     background-color:green;
@@ -181,6 +181,10 @@ ul{
     transform:rotateY(0)
 }
 
+.sample-text{
+    margin-bottom: 20px;
+}
+
 /****************** Contact Us ************************/
 .contact-us{
 	background: 
@@ -202,12 +206,12 @@ ul{
 
 .reach-me input, .reach-me textarea{
     border-radius: 5px;
-    width: 365px;
+    max-width: 365px;
 }
 
 .reach-me textarea{
-    width: 364px;
-    height: 120px;
+    max-width: 364px;
+    max-height: 120px;
 }
 
 .contact-message{
@@ -218,6 +222,6 @@ ul{
     margin-bottom: 40px;
 }
 
-.contact-button{
-    margin-left: 87px;
+.contact-box{
+    color: black;
 }
