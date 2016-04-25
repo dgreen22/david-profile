@@ -98,10 +98,23 @@
 }
 .specialty-1 li{
     font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.specialty-1 ul{
+    text-align: center;
+    width: 100%;
 }
 
 .specialty-1 h1{
     font-size: 40px;
+}
+
+.special{
+    text-align: center;
 }
 
 .modal-backdrop {
