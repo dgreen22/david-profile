@@ -61,7 +61,13 @@
 
 @media (max-width: 325px){
     .about-me{
-        height: 640px;
+        height: 910px;
+    }
+}
+
+@media (min-width: 326px) and (max-width: 769px){
+    .about-me{
+        height: 860px;
     }
 }
 /******************* Skills *********************/
@@ -161,7 +167,7 @@ ul{
 }
 
 .overlay{
-    color: white;
+  color: white;
 }
 
 .hovereffect .sample-1 {
@@ -197,11 +203,15 @@ ul{
 }
 
 @media (max-width:570px){
-  .overlay h2, .overlay h3, .overlay p{font-size: 0.75rem}  
+  .overlay h2, .overlay h3, .overlay p{font-size: 0.75rem;
+  line-height: 0.4;
+  }  
 }
 
 @media (max-width:1100px) and (min-width: 1000px){
-  .overlay {font-size: 1rem}
+  .overlay {font-size: 1rem
+  
+  }
 }
 
 /****************** Contact Us ************************/
