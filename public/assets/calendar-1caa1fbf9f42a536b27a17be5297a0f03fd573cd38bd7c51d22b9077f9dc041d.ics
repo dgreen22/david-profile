@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:https://www.eventbrite.com/e/hackernest-toronto-tech-job-fair-tickets-25868060064
+DTSTART:20160820T170000Z
+DTEND:20160820T220000Z
+SUMMARY:HackerNest Toronto Tech Job Fair
+DESCRIPTION:For details, click here: https://www.eventbrite.com/e/hackernest-toronto-tech-job-fair-tickets-25868060064
+LOCATION:MaRS Discovery District - 101 College Street - Toronto, ON M5G 1L7 - Canada
+END:VEVENT
+END:VCALENDAR
