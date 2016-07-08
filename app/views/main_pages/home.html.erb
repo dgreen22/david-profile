@@ -3,7 +3,7 @@
 		<div class="home-pic section">
 			<div class="home-page-text">
 				<h1> Full Stack Web Developer </h1>
-				<h4> Freelance web developer &amp; designer building appealing, SEO friendly sites that generate revenue and produce results. </h4>
+				<h4> Freelance web developer &amp; designer with a flair for entrepreneurship, business and sales strategy. </h4>
 			</div><!--/home-page-text-->
 		</div><!--/home-pic-->
 	</div><!--/row-->
@@ -58,72 +58,77 @@
 					  	<li> Google Analytics </li>
 					  </ul>
 				</div><!--/col-md-4-->
-			
-			<% if false %><!--modal button code-->
-				<div class="col-md-4 col-md-offset-4">
-					<!-- Button trigger modal -->
-					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-					  Order a Free Website Analysis
-					</button>
-
-					<!-- Modal -->
-					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					  <div class="modal-dialog" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-					      </div>
-					      <div class="modal-body">
-					        ...
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Save changes</buttyon>
-					      </div>
-					    </div>
-					  </div><!--modal-dialog-->
-					</div><!--/modal-->				
-				</div><!--/col-md-4-->
-			<% end %>
 		</div><!--/.specialty-1-->
 	</div><!--#specialty-->
 	<div class="row" id="sample-work">
-			<div class="sample-work section">			
-				<h1 class="sample-header"> Sample Work </h1>
-				<div class= "col-md-4 sample-text">
-					<h3> Company: Breeze Street Inc. </h3>
-					<h6> Profile: Online real estate marketing platform. </h6>
-				</div>
-				
-				<div class="col-md-7">
-    <div class="hovereffect">
-         <%= image_tag("brz-screen.png", class: "sample-1 img-responsive") %>
-            <div class="overlay">
-				<p> 
-					<span> <h2> Rebuilt E-Commerce Website</h2>
-			                <h3> Results: </h3>	              
-			                <p> Increased average time on site by 42% </p>
-			                <p> Increased revenue conversion rate by 22% </p>
-			                <p> Site optimized to be mobile-friendly </p>
-			                <h3> Built Using: </h3>
-			                <p> Ruby on Rails, Bootstrap, CSS, Javascript </p></span>
-				</p> 
-            </div>
-    </div>
-</div>
-			</div>
+		<div class="sample-work header section">
+		  <h1> Sample Work </h1>
+		    <div class="col-md-12">
+		        <div class="well">
+		            <div id="myCarousel" class="carousel slide">      
+		                <!-- Carousel items -->
+		                <div class="carousel-inner">
+		                    <div class="item active">
+		                        <div class="row">
+		                            <div class="col-sm-3"><a href="https://www.breezestreet.com/" class="thumbnail" target="_blank"><%= image_tag("brz-screen.png", class: "thumb-pic img-responsive", alt: "Breeze Street Inc Webpage Image") %></a>
+		                            	<div class="thumb-desc">
+			                            	<h3> Breeze Street Inc.</h3>
+			                            	<h5> Online Real Estate Platform</h5>
+			                            	<h5> Full Website Design & Development</h5>
+		                            	</div>         
+		                            </div>
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><%= image_tag("tiko.png", class: "thumb-pic img-responsive", alt: "Breeze Street Inc Webpage Image") %></a>
+		                            	<div class="thumb-desc">
+			                            	<h3> Tiko 3D</h3>
+			                            	<h5> 3D Printer Producers</h5>
+			                            	<h5> Countdown Launch Page Web Development</h5><br>
+		                            	</div>
+		                            </div>
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><%= image_tag("chapatihouse.png", class: "thumb-pic img-responsive", alt: "Breeze Street Inc Webpage Image") %></a>
+		                            	<div class="thumb-desc">
+			                            	<h3> Chapati House </h3>
+			                            	<h5> Artisan Food Producers</h5>
+			                            	<h5> Launch Page Web Design & Development</h5><br>
+		                            	</div>
+		                            </div>
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><%= image_tag("hr-gazette.png", class: "thumb-pic img-responsive", alt: "Breeze Street Inc Webpage Image") %></a>
+		                            	<div class="thumb-desc">
+			                            	<h3> HR Gazette</h3>
+			                            	<h5> News platform for HR professionals</h5>
+			                            	<h5> SEO & Web Analytics Enhancement</h5><br>
+		                            	</div>
+		                            </div>
+		                        </div><!--/row-->
+		                    </div><!--/item-->
+		                </div><!--/carousel-inner-->
+		                    <!--
+		                    <div class="item">
+		                        <div class="row">
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><%= image_tag("brz-screen.png", class: "img-responsive", alt: "Breeze Street Inc Webpage Image") %></a>
+		                            </div>
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+		                            </div>
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+		                            </div>
+		                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+		                            </div>
+		                        </div>
+		                    </div>
+		                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+		                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+		            </div>-->
+		        </div><!--/well-->
+		    </div><!--/col-md-12-->
+		</div><!--/sample-work-->
 	</div><!--/row-->	
 
 	<div class="row" id="contact">
-		<div class="contact-us header section">			  
-				<h1> Contact </h1>
+		<div class="contact-us header section">		  
+				<h1> Contact Me </h1>
 				  <div class="col-md-12">
 				  	<h2> David Green </h2>
-				  	<h3> Email: David.e.green@gmail.com </h3>
-				  	<h3> Phone: 416-455-5755 </h3>
+				  	<h3> Email: David@devslove.com </h3>
 				  </div>
 		</div><!--/contact-us-->
 	</div><!--/row-->
